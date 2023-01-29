@@ -1,0 +1,118 @@
+body{
+    background: #fddec3;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    margin-top: 30px;
+}
+.container{
+margin: 0 auto;
+max-width: 1000px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(59, 59, 59);
+    height: 30px;
+ }
+
+ li{
+    list-style-type: none;
+    font-size: 20px;
+ }
+
+ a{
+    color: black;
+    text-decoration: none;
+ }
+ a:hover{
+    color: rgb(133, 24, 65);
+ }
+
+ h3,p{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+ }
+ img{
+    width: 450px;
+    margin: 5px;
+ }
+ .imgcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .reginf{
+font-size: 20px;
+margin: 5px;
+ }
+ 
+ 
+ 
+ 
+.signform{
+text-align: center;
+}
+ 
+ input{
+    width: 299px;
+    height: 30px;
+    margin:5px;
+    border-radius:5px;
+    border:none;
+ }
+ 
+
+ input[type=submit] {
+     cursor:pointer;
+}
+ 
+.actioncol{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+ .actioncol1{
+ border:  1px black solid;
+   width: 500px;
+   margin: 10px;
+   border-radius: 35px;
+
+ }
+ 
+.actioncol1 p{
+   font-size: 20px;
+ }
+
+ input[type=date]{
+   text-align: center;
+   margin: 0px 80px;
+ 
+}
+
+ 
+ input[value="Отправить"] {
+   text-align: center;
+   margin: 0px 80px;
+   margin-top: 10px;
+}
+
+input[value="Выйти из личного кабинета"] {
+   text-align: center;
+   margin: 10px 80px;
+   margin-top: 10px;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
