@@ -43,7 +43,7 @@ else{
     <div class="container">
     <ul class="menu">
         <li><a href="#">Контакты</a></li>
-        <li><a href="login.php">Зарегистироваться на сайте</a></li>
+        <li><a href="login.php">Зарегистрироваться на сайте</a></li>
         <li><a href="actions.php">Личный кабинет</a></li>
     </ul>
 </div>
